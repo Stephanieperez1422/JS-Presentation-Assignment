@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<div class="container">
+
+    <h2>Presentation</h2>
+    <p id="presentation"></p>
+
+    <h2>Minimalistic Calculator</h2>
+    <p id="calculator"></p>
+
+    <h2>Values Prediction</h2>
+    <p id="values"></p>
+
+</div>
+
+<script>
+    // Presentation 
+    let name ="Stephanie";
+    let age = 23 ;
+    document.getElementById("presentation").innerHTML = "My name is " + name + "and I am" + age + " years old.";
+
+    //Calculator
+    document.getElementById("calculator").innerHTML =
+    "6 + 3 = " + (6 + 3) + "<br>" +
+    "6 - 3 = " + (6 - 3) + "<br>" +
+    "6 * 3 = " + (6 * 3) + "<br>" +
+    "6 / 3 = " + (6 / 3);
+
+    // Values Prediction 
+    document.getElementById("values").innerHTML =
+    "4 + 5 = " + (4 + 5) + "<br>" +
+    '"4 + 5" = 4 + 5' + "<br>" +
+    '"4" + "5" = ' + ("4" + "5");
+
+// Key concept:
+  // No quotes = a number, JavaScript can do math with it
+  // Quotes = text, JavaScript prints it as is or glues it together
+
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
